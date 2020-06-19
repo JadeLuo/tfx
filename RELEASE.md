@@ -39,7 +39,8 @@
 
 ### For pipeline authors
 
-*   N/A
+*   Added BigQueryToElwcExampleGen to take a query as input and generate
+    ExampleListAsContext (ELWC) examples.
 
 ### For component authors
 
