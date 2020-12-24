@@ -3,6 +3,12 @@
 ## Major Features and Improvements
 
 ## Breaking changes
+*   Do not store pipeline information on the local machine when using
+    Kubeflow orchestration. This change should not affect any behavior
+    for most cases. All operations will be executed based on the
+    information on the Kubeflow Pipeline cluster. There might be some
+    left files on ${HOME}/tfx/kubeflow or ${HOME}/kubeflow but those
+    will not be used any more.
 
 ### For pipeline authors
 
